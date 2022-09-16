@@ -267,6 +267,26 @@ npm run build -- --c dev OR npm run build -- --c qa
 
   * Second one is Adding the exact build command as an argument to the name we want : `ng build --configuration dev`
 
+<br>
+
+# Prettier #
+
+<br>
+
+* Prettier is a package that formates our code in the application to avoid the extra spaces and so on .
+
+* We can also use visual studio code tools exension to format our code . But , the other developer may not have that feature . So we must use the package to handle all the developers code in a unified way using prettier .
+
+<br>
+
+## Installing prettier in Angular Application ##
+
+<br>
+
+
+
+
+
   
 
 
