@@ -8,6 +8,11 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
+  "husky": {
+    "hooks":{
+      "pre-commit":"npm run pre-commit"
+    }
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^14.2.0",
