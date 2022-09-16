@@ -269,6 +269,10 @@ npm run build -- --c dev OR npm run build -- --c qa
 
 <br>
 
+# Setting up angular application with Prettier and Husky #
+
+<br>
+
 # Prettier #
 
 <br>
@@ -302,7 +306,73 @@ npm i prettier --save-dev
 
 <br>
 
-# HUsky #
+## Configuring prettier with application ##
+
+<br>
+
+* We should configure the prettier with our projects root folder .
+
+* Create a new file name `.prettiererc` as below:
+
+<br>
+
+<img src="Projects\Husky\src\assets\img-3.png">
+
+<br>
+
+* Add the configuration to the prettier with json format as below :
+
+<br>
+
+```javascript
+{
+    "bracketSpacing": true,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "printWidth": 80
+}
+```
+
+<br>
+
+<img src="Projects\Husky\src\assets\img-4.png">
+
+* Create another file in the root of the project as below:
+
+<br>
+
+<img src="Projects\Husky\src\assets\img-5.png">
+
+<br>
+
+* Add the below detains in the file as below :
+
+<br>
+
+```javascript
+package.json
+package-lock.json
+yarn.lock
+dist
+```
+
+<br>
+
+<img src="Projects\Husky\src\assets\img-6.png">
+
+<br>
+
+
+
+
+
+
+
+
+
+
+# Husky #
 
 <br>
 
