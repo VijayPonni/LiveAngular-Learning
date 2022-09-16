@@ -283,6 +283,58 @@ npm run build -- --c dev OR npm run build -- --c qa
 
 <br>
 
+* We can install prettier in the `dev-dependenciees` as we only need the code formatting while developing. So we can simple use below command to install prettier in dev-dependencies in package.json .
+
+<br>
+
+```javascript
+npm i prettier --save-dev
+```
+
+<br>
+
+
+* After running this command we can find our prettier get installed and will be available in `package.json` as below:
+
+<br>
+
+<img src="Projects\Husky\src\assets\img-1.PNG">
+
+<br>
+
+# HUsky #
+
+<br>
+
+* Normally the word `husky` means speaking slowly . But , the Husky will prevents our repository from unformatted format files .
+
+* That means , if we installed husky in our application , we can use the hooks that husky provides us .
+
+<br>
+
+## Installing husky in application ##
+
+<br>
+
+* To install husky in our application , use the command below:
+
+<br>
+
+```javascript
+npm i husky --save-dev
+```
+<br>
+
+* This command will install husky to our application and we can find it in `package.json` file within `dev-dependencies` section as below:
+
+<br>
+
+<img src="Projects\Husky\src\assets\img-2.PNG">
+
+<br>
+
+* We can use this husky package in our application with the help of the hooks .
+
 
 
 
