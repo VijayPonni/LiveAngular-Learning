@@ -19,66 +19,22 @@
         "plugin:@angular-eslint/template/process-inline-templates"
       ],
       "rules": {
-        "class-name": true,
-        "extends": [
-          "tslint:recommended",
-          "tslint-config-prettier"
-      ],
-        "comment-format": [
-          true,
-          "check-space"
-        ],
-        "indent": [
-          true,
-          "spaces"
-        ],
-        "one-line": [
-          true,
-          "check-open-brace",
-          "check-whitespace"
-        ],
-        "no-var-keyword": true,
-        "quotemark": [
-          true,
-          "double",
-          "avoid-escape"
-        ],
-        "semicolon": [
-          true,
-          "always",
-          "ignore-bound-class-methods"
-        ],
-        "whitespace": [
-          true,
-          "check-branch",
-          "check-decl",
-          "check-operator",
-          "check-module",
-          "check-separator",
-          "check-type"
-        ],
-        "typedef-whitespace": [
-          true,
+        "@angular-eslint/directive-selector": [
+          "error",
           {
-            "call-signature": "nospace",
-            "index-signature": "nospace",
-            "parameter": "nospace",
-            "property-declaration": "nospace",
-            "variable-declaration": "nospace"
-          },
-          {
-            "call-signature": "onespace",
-            "index-signature": "onespace",
-            "parameter": "onespace",
-            "property-declaration": "onespace",
-            "variable-declaration": "onespace"
+            "type": "attribute",
+            "prefix": "app",
+            "style": "camelCase"
           }
         ],
-        "no-internal-module": true,
-        "no-trailing-whitespace": true,
-        "no-null-keyword": true,
-        "prefer-const": true,
-        "jsdoc-format": true
+        "@angular-eslint/component-selector": [
+          "error",
+          {
+            "type": "element",
+            "prefix": "app",
+            "style": "kebab-case"
+          }
+        ]
       }
     },
     {

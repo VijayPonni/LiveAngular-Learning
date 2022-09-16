@@ -6,8 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
-    },
+    "test": "ng test",
+    "lint": "ng lint"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged",
@@ -38,7 +39,7 @@
     "@angular-eslint/builder": "14.0.4",
     "@angular-eslint/eslint-plugin": "14.0.4",
     "@angular-eslint/eslint-plugin-template": "14.0.4",
-    "@angular-eslint/schematics": "^14.0.4",
+    "@angular-eslint/schematics": "14.0.4",
     "@angular-eslint/template-parser": "14.0.4",
     "@angular/cli": "~14.2.3",
     "@angular/compiler-cli": "^14.2.0",
