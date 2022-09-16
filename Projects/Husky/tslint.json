@@ -1,6 +1,10 @@
 {
   "rules": {
     "class-name": true,
+    "extends": [
+      "tslint:recommended",
+      "tslint-config-prettier"
+  ],
     "comment-format": [
       true,
       "check-space"
@@ -57,4 +61,6 @@
     "prefer-const": true,
     "jsdoc-format": true
   }
+
+
 }
