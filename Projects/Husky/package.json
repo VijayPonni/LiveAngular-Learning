@@ -13,7 +13,11 @@
     "hooks": {
       "pre-commit": "npm run pre-commit"
     }
-  },
+  },  "lint-staged": {
+    "*.js": "eslint",
+    "*.css": "stylelint"
+   },
+   "pre-commit": "lint-staged",
   "private": true,
   "dependencies": {
     "@angular/animations": "^14.2.0",
