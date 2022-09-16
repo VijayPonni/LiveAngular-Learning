@@ -16,5 +16,4 @@ export class AppComponent {
 
 }
 
-console.log("hi");
 
